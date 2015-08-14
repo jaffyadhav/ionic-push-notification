@@ -10,19 +10,6 @@ app.use(express.static('../testapp/www'));
 
 var badge = 0;
 
-// on server started we can load our index.html page
-function app(req, res) {
-  fs.readFile('../testapp/www/index.html', function(err, data) {
-    if (err) {
-      console.log(err);
-      res.writeHead(500);
-      return res.end('Error loading client.html');
-    }
-    res.writeHead(200);
-    res.end(data);
-  });
-}
-
 setInterval(function() {
   ++badge;
 },1000);
