@@ -1,7 +1,7 @@
 angular.module('starter.controllers',[])
 	.controller('AppController',function($scope, $cordovaLocalNotification) {
 	    // creating a new websocket
-	    var socket = io.connect('http://192.168.1.203:8000');
+	    var socket = io.connect('http://192.168.1.217:8000');
 
 		    socket.on('badge', function (data) {
 		        $scope.badge = data;
