@@ -22,5 +22,7 @@
     "com.ionic.keyboard",
     "https://github.com/dina-ideas2it/cordova-plugin-local-notifications.git"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "android"
+  ]
 }
