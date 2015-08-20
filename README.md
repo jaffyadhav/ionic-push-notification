@@ -2,13 +2,13 @@
 
 1) Installation
 
-  Clone the repo
+  Clone the repo 
   
-    `git clone https://github.com/jaffyadhav/ionic-push-notification.git`
+  `git clone https://github.com/jaffyadhav/ionic-push-notification.git`
     
   Download dependencies
   
-    `ionic state restore`
+  `ionic state restore`
 
 Note: Your cordova version needs to be >= 5.2.0 for this to work
 
