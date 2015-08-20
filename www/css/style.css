@@ -1,0 +1,8 @@
+/* Empty. Add your own CSS if you like */
+.center {
+	-webkit-transform-style: preserve-3d;
+  	-moz-transform-style: preserve-3d;
+  	transform-style: preserve-3d;
+	text-align:center;
+	margin-top: calc(90vh / 2);
+}
